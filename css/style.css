@@ -159,6 +159,9 @@ header {
 
 .nav_links {
   /*Your code here again.*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav_item a {
