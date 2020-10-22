@@ -54,15 +54,26 @@ footer {
 /*Keyframes for animation*/
 
 @-webkit-keyframes logo_wiggle {
-  /*Your code here.*/
+  from {
+    width: 25px
+  }
+  to {
+    width: 250px
+  }
 }
 
 @keyframes logo_wiggle {
-  /*Your code here.*/
+  from {
+    width: 25px
+  }
+  to {
+    width: 250px
+  }
 }
 
 #logo {
-  /*Your code here.*/
+  animation-name: logo_wiggle;
+  animation-duration: 15s;
 }
 
 /* Cards! */
