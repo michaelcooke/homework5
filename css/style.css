@@ -214,5 +214,8 @@ a:focus {
   /*You will want four selectors*/
 }
 
-/*Your code here again.*/
-/*Add media query to handle reduced-motion*/
+@media screen and (prefers-reduced-motion: reduce) {
+  #logo {
+    animation: none;
+  }
+}
