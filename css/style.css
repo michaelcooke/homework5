@@ -148,7 +148,10 @@ footer {
 header {
   background: #fff;
   border-bottom: 3px solid #50c7c7;
-  /*Your  code here again.*/
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav_links {
