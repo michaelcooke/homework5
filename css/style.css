@@ -180,7 +180,8 @@ a:focus {
 @media screen and (min-width: 850px) {
   /* Cards! */
   .card {
-    /*Your  code here again.*/
+    flex-basis: 225px;
+    flex-wrap: wrap;
   }
 
   .card_big {
@@ -190,11 +191,14 @@ a:focus {
 
   /* Navbar */
   header {
-    /*Your code here again.*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .nav_links {
-    /*Your code here again.*/
+    flex-direction: row;
+    justify-content: end;
   }
 
   .nav_item a {
