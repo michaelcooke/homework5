@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Raleway', sans-serif; /* Test for this*/
   margin: 0;
   padding: 0;
@@ -6,13 +6,13 @@ body{
   background-image: url('../images/concrete_seamless.png');
 }
 
-h1{
+h1 {
   font-size: 2em;
   text-align: center;
   line-height: 2;
 }
 
-h2{
+h2 {
   font-size: 1.5em;
   text-align: center;
   padding: 5px;
@@ -22,7 +22,7 @@ p {
   padding: 0 30px;
 }
 
-a.skip{
+a.skip {
   background: white;
   left: 0;
   padding: 6px;
@@ -33,17 +33,17 @@ a.skip{
   z-index: 1;
 }
 
-a.skip:focus{
-  top:20px;
+a.skip:focus {
+  top: 20px;
   color: black;
   text-decoration-style: solid;
 }
 
-*:focus{
+*:focus {
   border: 2px solid black;
 }
 
-footer{
+footer {
   background-color: black;
   color: white;
   padding: 30px;
@@ -53,27 +53,23 @@ footer{
 /*Begin your code here*/
 /*Keyframes for animation*/
 
-@-webkit-keyframes logo_wiggle{
+@-webkit-keyframes logo_wiggle {
   /*Your code here.*/
-
 }
 
-@keyframes logo_wiggle{
+@keyframes logo_wiggle {
   /*Your code here.*/
+}
 
-} 
-
-#logo{
-   /*Your code here.*/
- 
+#logo {
+  /*Your code here.*/
 }
 
 /* Cards! */
-.pricing{
-    min-height: 500px;
-    /*Your code here.*/
-    /*Don't forget to vertically and horizontally alight the card*/
-  
+.pricing {
+  min-height: 500px;
+  /*Your code here.*/
+  /*Don't forget to vertically and horizontally alight the card*/
 }
 
 .card {
@@ -83,17 +79,16 @@ footer{
   padding: 0 0 50px 0;
   /*Your code here.*/
   /*Take a look at flex-basis*/
-
 }
 
-.card > header{
+.card > header {
   background: #288080;
-  border: 2px solid #45ADAD;
+  border: 2px solid #45adad;
   padding: 20px 0;
   border-radius: 7px 7px 0 0;
 }
 
-.card > ul{
+.card > ul {
   list-style: none;
   padding: 0;
 }
@@ -103,7 +98,7 @@ footer{
   margin: 20px auto;
 }
 
-.card button{
+.card button {
   width: 90%;
   height: 40px;
   border: 0;
@@ -114,85 +109,85 @@ footer{
   font-size: 1em;
 }
 
-.card h3{
+.card h3 {
   font-size: 4em;
   color: white;
   text-align: center;
 }
 
-.card_big{
+.card_big {
   -webkit-transform: initial;
-          transform: initial;
+  transform: initial;
 }
 
 /* Gallery! */
-.gallery{
+.gallery {
   min-height: 600px;
   /*Your code here again.*/
 }
 
-.gallery > img{
-  border: 10px #50C7C7 solid;
+.gallery > img {
+  border: 10px #50c7c7 solid;
   margin: 10px;
   width: 300px;
 }
 
 /* Navbar */
-header{
+header {
   background: #fff;
-  border-bottom: 3px solid #50C7C7;
+  border-bottom: 3px solid #50c7c7;
   /*Your  code here again.*/
 }
 
-.nav_links{
+.nav_links {
   /*Your code here again.*/
 }
 
-.nav_item a{
+.nav_item a {
   color: black;
   text-decoration: none;
 }
 
-.nav_item a:hover, a:focus{
-  color: #50C7C7;
+.nav_item a:hover,
+a:focus {
+  color: #50c7c7;
   text-decoration: underline;
   -webkit-text-decoration-style: dotted;
-          text-decoration-style: dotted;
+  text-decoration-style: dotted;
 }
 
-@media screen and (min-width: 850px){
-
+@media screen and (min-width: 850px) {
   /* Cards! */
   .card {
     /*Your  code here again.*/
   }
 
-  .card_big{
+  .card_big {
     -webkit-transform: scaleX(1.12);
-            transform: scaleX(1.12);
+    transform: scaleX(1.12);
   }
 
   /* Navbar */
-  header{
-    /*Your code here again.*/  
+  header {
+    /*Your code here again.*/
   }
 
-  .nav_links{
-    /*Your code here again.*/  
+  .nav_links {
+    /*Your code here again.*/
   }
 
-  .nav_item a{
+  .nav_item a {
     padding: 10px;
   }
 }
 
-@media print { 
+@media print {
   .card {
     flex-basis: 200px;
   }
   /*Your code here again.*/
-  /*You will want four selectors*/  
+  /*You will want four selectors*/
 }
 
-/*Your code here again.*/ 
+/*Your code here again.*/
 /*Add media query to handle reduced-motion*/
