@@ -210,8 +210,19 @@ a:focus {
   .card {
     flex-basis: 200px;
   }
-  /*Your code here again.*/
-  /*You will want four selectors*/
+  
+  body {
+    background: none;
+  }
+
+  .pricing {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .gallery, #gallery {
+    display: none;
+  }
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
